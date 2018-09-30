@@ -16,7 +16,7 @@ import com.codingschool.handreolas.codingschoolapp.R;
 public class RandomFragment extends Fragment {
 
 
-    TextView mTextView;
+    TextView mTextView, m1TextView, m2TextView, m3TextView, m4TextView;
 
     public RandomFragment() {
         // Required empty public constructor
@@ -30,7 +30,10 @@ public class RandomFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_random, container, false);
 
         mTextView = v.findViewById(R.id.randomTextView);
-
+        m1TextView = v.findViewById(R.id.randomTextView1);
+        m2TextView = v.findViewById(R.id.randomTextView2);
+        m3TextView = v.findViewById(R.id.randomTextView3);
+        m4TextView = v.findViewById(R.id.randomTextView4);
         return v;
     }
 

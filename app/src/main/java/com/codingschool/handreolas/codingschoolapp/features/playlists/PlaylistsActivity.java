@@ -16,7 +16,7 @@ public class PlaylistsActivity extends AppCompatActivity {
 
         getSupportFragmentManager()
                 .beginTransaction()
-                .add(R.id.playlists_root, new PlaylistsFragment())
+                .replace(R.id.playlists_root, new PlaylistsFragment())
                 .add(R.id.playlists_root, new TracksFragment())
                 .commit();
 

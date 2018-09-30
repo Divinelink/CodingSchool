@@ -8,22 +8,17 @@
 
     <TextView
         android:id="@+id/welcome_test_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="40dp"
+        style="@style/playlist_text_style"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
         android:text="@string/welcome_text"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp"
         android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/welcome_test_id_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
-        android:layout_marginRight="60dp"
+        style="@style/playlist_text_style"
         android:text="@string/greeting"
-        android:textSize="20sp"
+
         android:layout_gravity="center"/>
 
     <Button
@@ -34,7 +29,7 @@
         android:layout_marginRight="40dp"
         android:layout_marginTop="20dp"
         android:text="@string/button_text"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/DarkMagenta"
         android:textSize="20sp" />
 
     <Button
@@ -45,6 +40,6 @@
         android:layout_marginRight="40dp"
         android:layout_marginTop="20dp"
         android:text="@string/button_text"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/DarkSeaGreen"
         android:textSize="20sp" />
 </LinearLayout>

@@ -16,9 +16,9 @@ public class RandomActivity extends AppCompatActivity {
 
         getSupportFragmentManager()
                 .beginTransaction()
-                .add(R.id.random_root, new PlaylistsFragment())
-                .add(R.id.random_root, new TracksFragment())
-                .add(R.id.random_root, new RandomFragment())
+//                .add(R.id.random_root, new PlaylistsFragment())
+//                .add(R.id.random_root, new TracksFragment())
+                .replace(R.id.random_root, new RandomFragment())
                 .commit();
 
     }

@@ -5,9 +5,21 @@
     <string name="greeting">Have a nice start</string>
     <string name="button_text">Click me</string>
     <string name="back">Go Back</string>
-    <string name="random_text">This is the random fragment</string>
     <string name="tracks_fragment_view">This is the tracks fragment</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="random_text">This is first random text</string>
+    <string name="random_text1">This is second random text</string>
+    <string name="random_text2">This is third random text</string>
+    <string name="random_text3">This is forth random text</string>
+    <string name="random_text4">This is fifth random text</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="login_button">Login</string>
+    <string name="login_text">Welcome!\nPlease enter your email and password.</string>\
+    <string name="credentials_text">Email or password do not match</string>
+
 </resources>

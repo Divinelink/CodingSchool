@@ -8,11 +8,27 @@
 
     <TextView
         android:id="@+id/randomTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
+        style="@style/text_style"
         android:text="@string/random_text"/>
+
+    <TextView
+        android:id="@+id/randomTextView1"
+        style="@style/text_style"
+        android:text="@string/random_text1" />
+
+    <TextView
+        android:id="@+id/randomTextView2"
+        style="@style/text_style"
+        android:text="@string/random_text2"/>
+
+    <TextView
+        android:id="@+id/randomTextView3"
+        style="@style/text_style"
+        android:text="@string/random_text3"/>
+
+    <TextView
+        android:id="@+id/randomTextView4"
+        style="@style/text_style"
+        android:text="@string/random_text4"/>
 
 </LinearLayout>
