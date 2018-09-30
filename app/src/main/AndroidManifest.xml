@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".features.tracks.TracksActivity"></activity>
+        <activity android:name=".features.tracks.TracksActivity" />
+        <activity android:name=".features.random.RandomActivity"></activity>
     </application>
 
 </manifest>

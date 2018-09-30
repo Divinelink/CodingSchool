@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.codingschool.handreolas.codingschoolapp.R;
+import com.codingschool.handreolas.codingschoolapp.features.tracks.TracksFragment;
 
 
 public class PlaylistsActivity extends AppCompatActivity {
@@ -16,6 +17,11 @@ public class PlaylistsActivity extends AppCompatActivity {
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.playlists_root, new PlaylistsFragment())
+                .commit();
+
+        getSupportFragmentManager()
+                .beginTransaction()
+                .add(R.id.playlists_root, new TracksFragment())
                 .commit();
 
 
